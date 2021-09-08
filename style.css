@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Algerian, Elephant, sans-serif;
+}
+
+/* Style the header */
+header {
+  display: block;
+  padding: 30px;
+  text-align: center;
+  font-family: Algerian;
+  background-color: #566573;
+  font-size: 60px;
+  color: #F39C12;
+ 
+  text-decoration: none;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+ 
+  font-family: Elephant;
+  font-style-type: Bold;
+  background: #FDFEFE;
+}
+
+/* Style the list inside the menu */
+nav ul {
+ list-style-type: none;
+  margin: 5;
+  padding: 5;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 55px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #566573;
+}
+
+.active {
+  background-color: #3D3F48;
+}
+  
+}
+
+article {
+  float: left;
+  padding: 10px;
+  width: 70%;
+  background-color: #EBF5FB;
+  /* height: 300px;  only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  font-family: Sagona Book;
+  background-color: #E74C3C;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
