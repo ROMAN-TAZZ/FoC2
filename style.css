@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: Algerian, Elephant, sans-serif;
+  font-family: Amasis MT Pro Black, Algerian, Cooper Black;
 }
 
 /* Style the header */
@@ -11,7 +11,7 @@ header {
   display: block;
   padding: 20px;
   text-align: center;
-  font-family: Algerian;
+  font-family: Amasis MT Pro Black;
   background-color: #0033FF;
   font-size: 60px;
   color: #00FFFF ;
@@ -22,7 +22,7 @@ header {
 /* Create two columns/boxes that floats next to each other */
 nav {
  
-  font-family: Elephant;
+  font-family: Algerian;
   font-style-type: Bold;
   background: #FDFEFE;
 }
@@ -75,7 +75,7 @@ section:after {
 
 /* Style the footer */
 footer {
-  font-family: Sagona Book;
+  font-family: Cooper Black;
   background-color: #FF0000;
   padding: 3px;
   font-size: 20px;
